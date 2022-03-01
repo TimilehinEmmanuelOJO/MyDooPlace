@@ -160,6 +160,64 @@ button:focus{outline: none;}
     border: 0.5px solid rgb(245, 235, 235);
 }
 /*card section*/
-.card-grid{display: grid; margin-left: 122px; width: 1108px;}
-.card-grid h2{font-size: 36px;line-height: 42.1px;}
+.card-grid{display: grid; margin-left: 122px; width: 1108px; margin-bottom: 83px;}
+.card-grid h2{font-size: 36px;line-height: 42.1px; margin-bottom: 39px;}
 .card-group{display: flex; gap: 26px;}
+.cardbody p{
+    font-size: 14px;
+    line-height: 18.61px; font-weight: 400;
+}
+.card{border: none;}
+
+/*video section*/
+.video-group{
+    display: flex;
+    width: 1108px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.video-text{margin: auto 0;}
+.video-text h5{
+    font-size: 24px;
+    line-height: 28.21px;
+    margin-top: 32px;margin-bottom: 27px;
+}
+.video-text p{
+    font-size: 12px;
+    line-height: 16.32px;
+    text-align: justify;
+    margin-bottom: 22px;
+}
+.video-text button{
+    height: 50px;
+    width: 206px;
+    background-color: #7FDD92;
+    border: none; border-radius: 4px;
+    color: white; font-size: 18px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/*Developers section*/
+.dev-line{
+    width: 1108px;
+    border: 0.5px solid rgba(57, 68, 87, 1);
+    margin: 0 auto;
+    margin-top: 115px;
+}
+.dev-flex{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.dev-group{
+    display: flex;
+    margin: 53px 0;
+}
+.dev-group i{
+    font-size: 34px;
+}
+.dev-line2{
+    width: 1108px;
+    border: 0.5px solid rgba(57, 68, 87, 1);
+    margin: 0 auto;
+    margin-bottom: 109px;
+}
