@@ -221,3 +221,32 @@ button:focus{outline: none;}
     margin: 0 auto;
     margin-bottom: 109px;
 }
+/*Discover Section*/
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 78.5;
+}
+.box1{
+    height: 46px;
+    width: 272px;
+    border: 1px solid rgba(215, 215, 215, 1);
+    margin-bottom: 25.5;
+}
+.box2{
+    height: 46px;
+    width: 272px;
+    border: 1px solid rgba(215, 215, 215, 1)
+}
+.dev-line3{
+    width: 1108px;
+    border: 0.5px solid rgba(57, 68, 87, 1);
+    margin: 0 auto;
+    margin-bottom: 50.5px;
+}
+/*footer section*/
+.foot{
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+}
